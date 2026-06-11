@@ -28,7 +28,7 @@ export function userAbilities() {
 
 		demoteUser: defineAbility((user: User, targetUser?: User) => {
 			if (!targetUser) return false;
-			return satisfies(user, { minRole: 'moderator' }) && satisfies(targetUser.id, { minRole: 'moderator' })
+			return satisfies(user, { minRole: 'moderator' }) && satisfies(targetUser, { minRole: 'moderator' })
 		}),
 
 		banUser: defineAbility((user: User, targetUser?: User) => {
