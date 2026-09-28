@@ -24,9 +24,6 @@ export default defineNuxtConfig({
 			include: [
 				'zod',
 				'@internationalized/date',
-			],
-			exclude: [
-				'@nuxtjs/mdc'
 			]
 		},
 	},
