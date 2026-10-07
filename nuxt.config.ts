@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
 	modules: [
 		'@nuxt/ui',
+		'@type32/nuxt-ui-extras',
 		'@nuxt/image',
 		'@nuxtjs/i18n',
 		'nuxt-auth-utils',
@@ -12,8 +13,6 @@ export default defineNuxtConfig({
 		'nuxt-security',
 		'motion-v/nuxt'
 	],
-
-	extends: [['github:CTRL-Neo-Studios/nuxt-ui-extras#dev', {install: true}]],
 
 	devtools: {
 		enabled: true

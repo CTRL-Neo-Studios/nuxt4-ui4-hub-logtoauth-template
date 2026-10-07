@@ -20,6 +20,7 @@
     "@nuxthub/core": "0.10.8",
     "@nuxtjs/i18n": "^10.6.0",
     "@type32/nuxt-cs-utils": "2.2.2",
+    "@type32/nuxt-ui-extras": "^0.1.1",
     "@vercel/blob": "^2.8.0",
     "@vueuse/nuxt": "15.0.0",
     "drizzle-kit": "^0.31.11",
@@ -37,5 +38,10 @@
   "devDependencies": {
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.11"
-  }
+  },
+  "packageManager": "bun@1.4.2",
+  "trustedDependencies": [
+    "esbuild",
+    "vue-demi"
+  ]
 }
