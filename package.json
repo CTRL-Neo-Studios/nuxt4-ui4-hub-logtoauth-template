@@ -10,36 +10,36 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@electric-sql/pglite": "^0.5.8",
-    "@iconify-json/lucide": "^1.2.137",
-    "@iconify-json/simple-icons": "^1.2.97",
+    "@electric-sql/pglite": "^0.5.11",
+    "@iconify-json/lucide": "^1.2.147",
+    "@iconify-json/simple-icons": "^1.2.100",
     "@internationalized/date": "^3.12.4",
-    "@nuxt/fonts": "^0.14.0",
-    "@nuxt/image": "^2.1.0",
-    "@nuxt/ui": "^4.11.2",
-    "@nuxthub/core": "0.10.8",
+    "@nuxt/fonts": "^1.0.1",
+    "@nuxt/image": "^2.2.0",
+    "@nuxt/ui": "^4.12.0",
+    "@nuxthub/core": "0.10.10",
     "@nuxtjs/i18n": "^10.6.0",
     "@type32/nuxt-cs-utils": "2.2.2",
     "@type32/nuxt-ui-extras": "^0.1.1",
-    "@vercel/blob": "^2.8.0",
+    "@vercel/blob": "^2.8.2",
     "@vueuse/nuxt": "15.0.0",
     "drizzle-kit": "^0.31.11",
-    "drizzle-orm": "^0.45.3",
-    "motion-v": "^2.5.0",
+    "drizzle-orm": "^0.45.4",
+    "motion-v": "^2.8.0",
     "nuxt": "^4.6.2",
-    "nuxt-auth-utils": "^0.5.30",
+    "nuxt-auth-utils": "^0.5.32",
     "nuxt-authorization": "^0.3.5",
     "nuxt-security": "2.6.0",
     "postgres": "^3.4.9",
     "tailwindcss": "^4.3.3",
-    "vue": "^3.5.43",
-    "zod": "^4.6.5"
+    "vue": "^3.5.44",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "typescript": "^6.0.3",
-    "vue-tsc": "^3.3.11"
+    "typescript": "6.0.3",
+    "vue-tsc": "^3.3.13"
   },
-  "packageManager": "bun@1.4.2",
+  "packageManager": "bun@1.4.3",
   "trustedDependencies": [
     "esbuild",
     "vue-demi"
