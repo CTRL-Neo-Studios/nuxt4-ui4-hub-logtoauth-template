@@ -26,7 +26,7 @@
     "drizzle-kit": "^0.31.11",
     "drizzle-orm": "^0.45.3",
     "motion-v": "^2.5.0",
-    "nuxt": "^4.6.1",
+    "nuxt": "^4.6.2",
     "nuxt-auth-utils": "^0.5.30",
     "nuxt-authorization": "^0.3.5",
     "nuxt-security": "2.6.0",
