@@ -92,6 +92,8 @@ clearNuxtState(['counter', 'user'])
 clearNuxtState()
 ```
 
+> **Nuxt 5:** `clearNuxtState` now **resets state to its `useState` init value** (via `experimental.defaults.useState.resetOnClear`, on by default) instead of setting it to `undefined`. Check for the initial value after clearing, or set `resetOnClear: false` to restore the old behavior.
+
 ## With Pinia
 
 For complex state management, use Pinia:
@@ -186,7 +188,7 @@ useState('data', () => ({ name: 'John', age: 30 }))
 useState('items', () => ['a', 'b', 'c'])
 ```
 
-<!--
+<!-- 
 Source references:
 - https://nuxt.com/docs/getting-started/state-management
 - https://nuxt.com/docs/api/composables/use-state
