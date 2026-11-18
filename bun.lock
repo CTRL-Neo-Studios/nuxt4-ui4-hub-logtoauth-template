@@ -15,7 +15,7 @@
         "@nuxthub/core": "0.10.12",
         "@nuxtjs/i18n": "^10.6.0",
         "@type32/nuxt-cs-utils": "2.2.2",
-        "@type32/nuxt-ui-extras": "^0.1.1",
+        "@type32/nuxt-ui-extras": "^0.1.2",
         "@vercel/blob": "^2.9.0",
         "@vueuse/nuxt": "15.0.0",
         "drizzle-kit": "^0.31.11",
@@ -687,7 +687,7 @@
 
     "@type32/nuxt-cs-utils": ["@type32/nuxt-cs-utils@2.2.2", "", { "dependencies": { "@internationalized/date": "^3.12.3", "zod": "^4.4.3" } }, "sha512-LmamO5KgkExyXOzYPoknvxFuISCy5NyVa8450z3N9fY5w/w8UPedW7HXdSu1Ytwh8fcMjvNnSNJUBoNUH8A/WQ=="],
 
-    "@type32/nuxt-ui-extras": ["@type32/nuxt-ui-extras@0.1.1", "", { "dependencies": { "@nuxt/kit": "^4.6.0", "@nuxt/ui": "^4.11.3", "defu": "^6.1.7", "motion-v": "^2.5.2", "tailwind-merge": "^3.7.0", "tw-animate-css": "^1.4.0" }, "peerDependencies": { "tailwindcss": "^4" } }, "sha512-kAyB8z0fok+7EsPNwSSR335/k8yTikbi16fvEHcNo1wJG2aWY5bDJD7nXoZJDj7RhWqXJgNOzLSJDPT/azmefA=="],
+    "@type32/nuxt-ui-extras": ["@type32/nuxt-ui-extras@0.1.2", "", { "dependencies": { "@nuxt/kit": "^4.6.4", "@nuxt/ui": "^4.13.0", "defu": "^6.1.7", "motion-v": "^2.13.0", "tailwind-merge": "^3.7.0", "tw-animate-css": "^1.4.0" }, "peerDependencies": { "tailwindcss": "^4" } }, "sha512-yqGFWUaKLELZ+uUIpNogLfGTyhPOtkQ/xHxXAeO8c1A+hasU82PFBIQHN9DCHbCGiMhT9E3Hzd812UsGOla7Sw=="],
 
     "@types/estree": ["@types/estree@1.0.10", "", {}, "sha512-lTyOMnOcmRBzdCv6/4zUZCrEhV0xrqQiUZBZtVcbmLHBXKLnN8q89v/wKRF/Q0HbwVsqbIG3o5HDoFl9sduM+g=="],
 
